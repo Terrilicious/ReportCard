@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/Child_To_Main_LAyout2"
+        android:layout_weight="1"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="6dp">
+
+            <TextView
+                android:id="@+id/tv_studentId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student No:"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_passed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passed"
+                android:textColor="#F44336"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:src="@drawable/tinga_c" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="Michael" />
+
+            <TextView
+                android:id="@+id/tv_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Wright" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:text="Average:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right" />
+
+            <TextView
+                android:id="@+id/tv_average"
+                android:text="%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                tools:textStyle="bold"
+                android:layout_marginLeft="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        style="@style/Child_To_Main_LAyout">
+
+        <View
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <!--Third subject and it's result-->
+
+        <LinearLayout
+            style="@style/LinearlayoutAttributes"
+            android:layout_weight="1"
+            android:background="#607D8B">
+
+            <TextView
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                android:text="Subject"
+                android:textStyle="bold"/>
+            <TextView
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                android:text="Marks"
+                android:textStyle="bold"/>
+
+            <TextView
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                android:text="Grade"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+        <!--First  subject and it's result-->
+        <LinearLayout
+            style="@style/LinearlayoutAttributes"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_sub1"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                android:text="ITC 571" />
+
+            <TextView
+                android:id="@+id/tv_mark1"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Mark 1" />
+
+            <TextView
+                android:id="@+id/tv_res1"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Result 1" />
+
+        </LinearLayout>
+
+        <!--Second subject and it's result-->
+
+        <LinearLayout
+            style="@style/LinearlayoutAttributes"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_sub2"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                android:text="ITC 431" />
+
+            <TextView
+                android:id="@+id/tv_mark2"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Mark 2" />
+
+            <TextView
+                android:id="@+id/tv_res2"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Result 2" />
+
+        </LinearLayout>
+
+        <!--Third subject and it's result-->
+
+        <LinearLayout
+            style="@style/LinearlayoutAttributes"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_sub3"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                android:text="ITC 513" />
+
+            <TextView
+                android:id="@+id/tv_mark3"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Mark 3" />
+
+            <TextView
+                android:id="@+id/tv_res3"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Result 3" />
+
+        </LinearLayout>
+
+        <!--Third subject and it's result-->
+
+        <LinearLayout
+            style="@style/LinearlayoutAttributes"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_sub4"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                android:text="ITC 542" />
+
+            <TextView
+                android:id="@+id/tv_mark4"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Mark 4" />
+
+            <TextView
+                android:id="@+id/tv_res4"
+                style="@style/SubjectAlignment"
+                android:layout_weight="1"
+                tools:text="Result 4" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

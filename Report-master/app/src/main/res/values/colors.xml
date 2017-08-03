@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="editorColorPrimary">#fea605</color>
+    <color name="editorColorPrimaryDark">#f5b94b</color>
+
+    <!--Networking Colours-->
+    <color name="networkingColourPrimary">#CDDC39</color>
+    <color name="networkingDarkPrimary">#AFB42B</color>
+    <color name="networking_items">#F0F4C3</color>
+
+    <!--IT Management Colours-->
+    <color name="itColourPrimary">#8BC34A</color>
+    <color name="itDarkPrimary">#689F38</color>
+    <color name="it_items">#F0F4C3</color>
+
+    <!--Software Design Colours-->
+    <color name="designColourPrimary">#4CAF50</color>
+    <color name="designDarkPrimary">#388E3C</color>
+    <color name="design_items">#F0F4C3</color>
+
+    <!--System Analysis Colours-->
+    <color name="sysColourPrimary">#009688</color>
+    <color name="sysDarkPrimary">#00796B</color>
+    <color name="sys_items">#F0F4C3</color>
+
+</resources>

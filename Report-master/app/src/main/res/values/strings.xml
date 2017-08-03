@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CardReport</string>
+    <string name="student_display">Student Results</string>
+    <string name="system_analysis">System Analysis</string>
+    <string name="it_management">IT Management</string>
+    <string name="networking">Computer Networking</string>
+    <string name="software_design">Software Design &amp; Development</string>
+    <string name="faculties">Faculties</string>
+
+</resources>

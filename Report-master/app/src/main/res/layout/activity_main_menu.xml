@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".model.MainMenu"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_id_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="Computer Networking"
+            android:minHeight="88dp"
+            android:layout_weight="1"
+            android:onClick="networking"
+            android:background="@color/networkingDarkPrimary"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_id_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="IT Management"
+            android:minHeight="88dp"
+            android:layout_weight="1"
+            android:onClick="itManagement"
+            android:background="@color/itDarkPrimary"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_id_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="Software Design &amp; Developemnt"
+            android:minHeight="88dp"
+            android:layout_weight="1"
+            android:onClick="softwareDesign"
+            android:background="@color/designDarkPrimary"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_id_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="System Analysis"
+            android:minHeight="88dp"
+            android:layout_weight="1"
+            android:onClick="systemAnalysis"
+            android:background="@color/sysDarkPrimary"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

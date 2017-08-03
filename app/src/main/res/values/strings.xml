@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReportCard</string>
+    <array name="terry">
+        <item>Choose faculty</item>
+        <item>Engineering</item>
+        <item>Business Studies</item>
+    </array>
+</resources>

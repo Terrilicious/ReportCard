@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.cardreport.AddStudent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <!-- Label -->
+        <TextView
+            android:text="Overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:width="12dp"/>
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:paddingLeft="16dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/te_fullnames"
+                android:hint="Full Names"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Breed field -->
+            <EditText
+                android:id="@+id/te_surname"
+                android:hint="Surname"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top">
+
+        <!-- Label -->
+        <TextView
+            android:text="Marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:width="12dp"/>
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:paddingLeft="16dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/te_sub1"
+                android:hint="Subject 1"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Breed field -->
+            <EditText
+                android:id="@+id/te_sub2"
+                android:hint="Subject 2"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/te_sub3"
+                android:hint="Subject 3"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Breed field -->
+            <EditText
+                android:id="@+id/te_sub4"
+                android:hint="Subject 4"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="Select the faculty below:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_net"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="course 0"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_it_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="course 1" />
+
+        <RadioButton
+            android:id="@+id/radio_software_design"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="course 2"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_sys_analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="course 3" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
